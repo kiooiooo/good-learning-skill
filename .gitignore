@@ -8,6 +8,16 @@
 !/examples/
 !/references/
 !/scripts/
+!/.agents/
+/.agents/*
+!/.agents/skills/
+/.agents/skills/*
+!/.agents/skills/good-learning/
+/.agents/skills/good-learning/*
+!/.agents/skills/good-learning/SKILL.md
+!/.agents/skills/good-learning/scripts
+!/.agents/skills/good-learning/references
+!/.agents/skills/good-learning/requirements.txt
 /examples/*
 !/examples/*.json
 /references/*
