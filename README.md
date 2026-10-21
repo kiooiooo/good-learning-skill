@@ -28,6 +28,8 @@
 
 ## 安装
 
+在 Codex 中打开本仓库时，仓库级入口为 `.agents/skills/good-learning/SKILL.md`，可通过 `$good-learning` 调用。该目录使用相对符号链接引用仓库根目录的 `SKILL.md`、`scripts`、`references` 和 `requirements.txt`，无需重复复制文件，也不依赖特定工作区的绝对路径。请将入口和 `.gitignore` 一起提交；新的 Codex Cloud 任务须检出包含这些变更的提交。Skill 可被发现不代表 PDF 依赖已安装，运行依赖见下文。
+
 以codex为示例：把仓库克隆或复制为 Codex skills 目录下的 `good-learning` 文件夹，重启 Codex 或重新加载 skills 后即可使用
 
 ```text
